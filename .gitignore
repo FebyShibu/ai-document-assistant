@@ -1,0 +1,32 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Personal and confidential documents
+*.pdf
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE settings
+.vscode/
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Temporary Azure testing script
+test_azure.py
